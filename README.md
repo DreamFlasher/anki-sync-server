@@ -84,6 +84,15 @@ and put it in `~/Anki/addons`.
 
 [addons21]: https://apps.ankiweb.net/docs/addons.html#_add_on_folders
 
+### AnkiDroid
+
+Advanced -> Custom sync server
+
+Sync url: `http://your.server:27701`
+Media sync url: `http://your.server:27701/msync`
+
+Make sure to not use https, no trailing slashes and include the port. You'll be asked to login again, the email is the username (no full email necessary).
+
 Running `ankisyncd` without `pyaudio`
 -------------------------------------
 
